@@ -1,0 +1,2 @@
+# Preserve byte-bound frozen scripts and evidence across checkouts.
+* -text

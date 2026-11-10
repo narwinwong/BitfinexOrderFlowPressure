@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-10T03:57:14.646475+00:00",
+  "independent_source_sha256": "0d0f08fa070a6892305b0e80c1c80c8f180986d22f24ae8d1ee3642889d011de",
+  "development_cache_sha256": "9a975bb1fa16a20ed40e58425ebb1cde7c16ecfbf035552aafc8c0e8062dd4cb",
+  "summary_sha256": "7fc822b6fefb40102785dd8e00f368ccf490df68a9015719cd5e93f48ed2307c",
+  "primary_event_algorithm": "eligible-index search; no engine import or grid-state loop",
+  "primary_trades_reconstructed": 2777,
+  "primary_cash_usd": 9968.899708199959,
+  "all_cells_ledger_daily_exposure_baseline_and_bounds_verified": true,
+  "bootstrap_resamples": 20000,
+  "contrasts": 30,
+  "cells": [
+    {
+      "name": "d10_f0",
+      "trades_audited": 2977,
+      "net_pnl_usd": -4.955500000000006,
+      "adjusted_lower_cash_usd": -0.04790073848987103,
+      "adjusted_lower_exposure_usd": -0.047174511314030415
+    },
+    {
+      "name": "d10_f10",
+      "trades_audited": 2977,
+      "net_pnl_usd": -19.399535899999243,
+      "adjusted_lower_cash_usd": -0.15929553154695505,
+      "adjusted_lower_exposure_usd": -0.15852888578664057
+    },
+    {
+      "name": "d10_f20",
+      "trades_audited": 2977,
+      "net_pnl_usd": -33.84357180000003,
+      "adjusted_lower_cash_usd": -0.2740658892283613,
+      "adjusted_lower_exposure_usd": -0.2734600390249559
+    },
+    {
+      "name": "d10_f30",
+      "trades_audited": 2977,
+      "net_pnl_usd": -48.28760769999923,
+      "adjusted_lower_cash_usd": -0.39011101337568455,
+      "adjusted_lower_exposure_usd": -0.38898290605502744
+    },
+    {
+      "name": "d30_f0",
+      "trades_audited": 2777,
+      "net_pnl_usd": -4.15229999999997,
+      "adjusted_lower_cash_usd": -0.038349562615100995,
+      "adjusted_lower_exposure_usd": -0.03735461439341587
+    },
+    {
+      "name": "d30_f10",
+      "trades_audited": 2777,
+      "net_pnl_usd": -17.626295899999228,
+      "adjusted_lower_cash_usd": -0.1419522594852605,
+      "adjusted_lower_exposure_usd": -0.14134357431599995
+    },
+    {
+      "name": "d30_f20",
+      "trades_audited": 2777,
+      "net_pnl_usd": -31.100291800000008,
+      "adjusted_lower_cash_usd": -0.24923552956721937,
+      "adjusted_lower_exposure_usd": -0.24810875208305103
+    },
+    {
+      "name": "d30_f30",
+      "trades_audited": 2777,
+      "net_pnl_usd": -44.57428769999926,
+      "adjusted_lower_cash_usd": -0.35687376314640307,
+      "adjusted_lower_exposure_usd": -0.3558631077132396
+    },
+    {
+      "name": "d60_f0",
+      "trades_audited": 2538,
+      "net_pnl_usd": -3.557300000000002,
+      "adjusted_lower_cash_usd": -0.034427393186003706,
+      "adjusted_lower_exposure_usd": -0.03343932605381628
+    },
+    {
+      "name": "d60_f10",
+      "trades_audited": 2538,
+      "net_pnl_usd": -15.882347299999337,
+      "adjusted_lower_cash_usd": -0.12931219265192848,
+      "adjusted_lower_exposure_usd": -0.12828782685731405
+    },
+    {
+      "name": "d60_f20",
+      "trades_audited": 2538,
+      "net_pnl_usd": -28.20739460000003,
+      "adjusted_lower_cash_usd": -0.2269382199576429,
+      "adjusted_lower_exposure_usd": -0.2259307626569824
+    },
+    {
+      "name": "d60_f30",
+      "trades_audited": 2538,
+      "net_pnl_usd": -40.532441899999355,
+      "adjusted_lower_cash_usd": -0.32446807703958974,
+      "adjusted_lower_exposure_usd": -0.32325273458997145
+    },
+    {
+      "name": "d30_f20_slip5",
+      "trades_audited": 2777,
+      "net_pnl_usd": -37.83728974999927,
+      "adjusted_lower_cash_usd": -0.30278434562844725,
+      "adjusted_lower_exposure_usd": -0.30181392033220267
+    },
+    {
+      "name": "d30_f20_noise3101",
+      "trades_audited": 3761,
+      "net_pnl_usd": -42.29379920000003,
+      "adjusted_lower_cash_usd": -0.3271877452283613,
+      "adjusted_lower_exposure_usd": -0.32650990984067213
+    },
+    {
+      "name": "d30_f20_noise3102",
+      "trades_audited": 3778,
+      "net_pnl_usd": -42.37359160000004,
+      "adjusted_lower_cash_usd": -0.3260913741731125,
+      "adjusted_lower_exposure_usd": -0.32505389661032924
+    }
+  ],
+  "holdout_prices_accessed": false,
+  "limits": [
+    "Nonprimary signal decisions rely on saved main trades.",
+    "Cache causality relies on the separately reviewed loader; no independent raw-price parse.",
+    "No native fee, positive-size fill, exchange clock or present-day edge validation."
+  ]
+}
